@@ -5,65 +5,26 @@ var myFooter = $("#my_footer");
 var div_code = `<div class="footer-content position-relative">
                   <div class="container">
                   <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-8">
                       <div class="footer-info">
                         <h3>Like Floor StampConcrete</h3>
                           <p>ถนน เชียงใหม่-ลำปาง, ช้างเผือก, <br>หมู่ที่ 5, เชียงใหม่ 50300, ประเทศไทย</p>
                           <p>Chiang Mai, Thailand 50300</p>
-                          <br>
-                          <strong>Phone:</strong> 084 610 6657<br>
-                          <strong>Email:</strong> LikeFloorStampConcrete@gmail.com<br>
-                        <div class="social-links d-flex mt-3">
-                          <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-                          <a href="https://www.facebook.com/likefloorstampconcrete" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                          <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
-                          <a href="https://lin.ee/nknUyhZ" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-line"></i></a>
-                        </div>
                       </div>
                     </div>
                     <!-- End footer info column-->
-                    <div class="col-lg-2 col-md-3 footer-links">
-                      <h4>Useful Links</h4>
-                      <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Terms of service</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                      </ul>
+                    <div class="col-lg-4 col-md-3 footer-links">
+                      <h4>Contact us</h4>
+                      <strong>Phone:</strong> 084 610 6657<br>
+                      <strong>Email:</strong> LikeFloorStampConcrete@gmail.com<br>
                     </div>
                     <!-- End footer links column-->
-                    <div class="col-lg-2 col-md-3 footer-links">
-                      <h4>Our Services</h4>
-                      <ul>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Product Management</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Graphic Design</a></li>
-                      </ul>
-                    </div>
-                    <!-- End footer links column-->
-                    <div class="col-lg-2 col-md-3 footer-links">
-                      <h4>Hic solutasetp</h4>
-                      <ul>
-                        <li><a href="#">Molestiae accusamus iure</a></li>
-                        <li><a href="#">Excepturi dignissimos</a></li>
-                        <li><a href="#">Suscipit distinctio</a></li>
-                        <li><a href="#">Dilecta</a></li>
-                        <li><a href="#">Sit quas consectetur</a></li>
-                      </ul>
-                    </div>
-                    <!-- End footer links column-->
-                    <div class="col-lg-2 col-md-3 footer-links">
-                      <h4>Nobis illum</h4>
-                      <ul>
-                        <li><a href="#">Ipsam</a></li>
-                        <li><a href="#">Laudantium dolorum</a></li>
-                        <li><a href="#">Dinera</a></li>
-                        <li><a href="#">Trodelas</a></li>
-                        <li><a href="#">Flexo</a></li>
-                      </ul>
+                    <div class="col-lg-4 col-md-3 footer-links">
+                      <h4>Social contact</h4>
+                      <a href="javascript:void(0)" class="mx-2"><i class="bi bi-twitter fa-2x"></i></a>
+                      <a href="https://www.facebook.com/likefloorstampconcrete" target="_blank" class="mx-2"><i class="bi bi-facebook fa-2x"></i></a>
+                      <a href="javascript:void(0)" class="mx-2"><i class="bi bi-instagram fa-2x"></i></a>
+                      <a href="https://lin.ee/nknUyhZ" target="_blank" class="mx-2"><i class="bi bi-line fa-2x"></i></a>
                     </div>
                     <!-- End footer links column-->
                     </div>
@@ -72,7 +33,10 @@ var div_code = `<div class="footer-content position-relative">
                 <div class="footer-legal text-center position-relative">
                   <div class="container">
                     <div class="copyright">
-                      &copy; Copyright By <strong><span>aonitcmtc</span></strong>.
+                      &copy; Copyright By 
+                      <a href="https://github.com/aonitcmtc" target="_blank"
+                        <strong><span>aonitcmtc</span></strong>.
+                      </a>
                     </div>
                     <div class="credits">
                       <!-- All the links in the footer should remain intact. -->
