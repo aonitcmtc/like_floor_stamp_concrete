@@ -11,12 +11,12 @@ var div_code = `<a href="index.html" class="logo d-flex align-items-center">
                   <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
                   <nav id="navbar" class="navbar">
                     <ul>
-                      <li><a href="index.html" class="active">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="services.html">Services</a></li>
-                      <li><a href="projects.html">Projects</a></li>
-                      <li><a href="shop.html">Shop</a></li>
-                      <li><a href="blog.html">Blog</a></li>
+                      <li><a id="index" href="index.html">Home</a></li>
+                      <li><a id="about" href="about.html">About</a></li>
+                      <li><a id="services" href="services.html">Services</a></li>
+                      <li><a id="projects" href="projects.html">Projects</a></li>
+                      <li><a id="shop" href="shop.html">Shop</a></li>
+                      <li><a id="blog" href="blog.html">Blog</a></li>
                       <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                           <li><a href="#">Dropdown 1</a></li>
@@ -34,7 +34,7 @@ var div_code = `<a href="index.html" class="logo d-flex align-items-center">
                           <li><a href="#">Dropdown 4</a></li>
                         </ul>
                       </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a id="contact" href="contact.html">Contact</a></li>
                     </ul>
                   </nav>`;
 myNav.append(div_code);
@@ -50,5 +50,8 @@ myNav.append(div_code);
 // function init () {
 //   $('#stock').addClass('active');
 // }
+
+// alert(this_is_page);
+$('#'+this_is_page).addClass('active');
 
 // init();
