@@ -8,7 +8,7 @@ var div_code = `<div class="footer-content position-relative">
                     <div class="col-lg-4 col-md-8">
                       <div class="footer-info">
                         <h3>Like Floor StampConcrete</h3>
-                          <p>ถนน เชียงใหม่-ลำปาง, ช้างเผือก, <br>หมู่ที่ 5, เชียงใหม่ 50300, ประเทศไทย</p>
+                          <p>ต.หนองจ๊อม อ.สันทราย เชียงใหม่ 50210, ประเทศไทย</p>
                           <p>Chiang Mai, Thailand 50300</p>
                       </div>
                     </div>
@@ -21,9 +21,9 @@ var div_code = `<div class="footer-content position-relative">
                     <!-- End footer links column-->
                     <div class="col-lg-4 col-md-3 footer-links">
                       <h4>Social contact</h4>
-                      <a href="javascript:void(0)" class="mx-2"><i class="bi bi-twitter fa-2x"></i></a>
+                      <a href="https://www.tiktok.com/@likefloorstampconcrete" target="_blank" class="mx-2"><i class="bi bi-tiktok fa-2x"></i></a>
                       <a href="https://www.facebook.com/likefloorstampconcrete" target="_blank" class="mx-2"><i class="bi bi-facebook fa-2x"></i></a>
-                      <a href="javascript:void(0)" class="mx-2"><i class="bi bi-instagram fa-2x"></i></a>
+                      <a href="https://www.instagram.com/likefloorstampconcrete" target="_blank" class="mx-2"><i class="bi bi-instagram fa-2x"></i></a>
                       <a href="https://lin.ee/nknUyhZ" target="_blank" class="mx-2"><i class="bi bi-line fa-2x"></i></a>
                     </div>
                     <!-- End footer links column-->
